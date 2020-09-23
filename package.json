@@ -1,0 +1,19 @@
+{
+  "name": "drbigode_server",
+  "version": "1.0.0",
+  "description": "DrBigode Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natanloterio/DrBigode-Server.git"
+  },
+  "author": "Natan Loterio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/natanloterio/DrBigode-Server/issues"
+  },
+  "homepage": "https://github.com/natanloterio/DrBigode-Server#readme"
+}
