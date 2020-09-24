@@ -4,7 +4,8 @@
   "description": "DrBigode Server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node ./source/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/natanloterio/DrBigode-Server/issues"
   },
-  "homepage": "https://github.com/natanloterio/DrBigode-Server#readme"
+  "homepage": "https://github.com/natanloterio/DrBigode-Server#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/preset-env": "^7.3.1",
+    "nodemon": "^2.0.4"
+  }
 }
